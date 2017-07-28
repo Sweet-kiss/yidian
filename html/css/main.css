@@ -67,6 +67,87 @@
 .weixin span{
 	display: inline-block;
 	float: right;
+	font-family: "微软雅黑";
 	margin-right: 1px;
 
+}
+.phone_call {
+    font-size: 15px;
+    color：#6b6a6a;
+    font-family: "微软雅黑";
+    text-align: right;
+}
+.phone_call span {
+	color: red;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+/*导航部分*/
+.navbar_buttom {
+	width: 100%;
+	background-color: #f0f0f0;
+	overflow: hidden;
+	height: 50px;
+}
+.nav_dh ul li{
+	float: left;
+	line-height: 50px;
+	margin-right: 0px;
+}
+.nav_dh ul li a {
+ display: block;
+ padding: 0px 15px;
+ color: #706f6f !important;
+ font-size: 15px;
+ font-family: "微软雅黑";
+ /*background-color: green;*/
+}
+.nav_dh ul li a:hover {
+	color: #b28850 !important;
+	font-family: "微软雅黑";
+}
+
+/*新闻中心*/
+.news_n {
+	overflow: hidden;
+	background-color: yellow;
+	height: 300px;
+}
+.news_left {
+	width: 65%;
+   /* background-color: red;*/
+}
+.notice,.dynamic {
+	width: 49%;
+	/*background-color: blue;*/
+	margin-right: 14px;
+}
+.dynamic {
+	margin-right: 0px;
+}
+.notice ul,.dynamic ul {
+	border-left: #b5b5b5 solid 2px;
+	border-right: #b5b5b5 solid 2px;
+	border-bottom: #b5b5b5 solid 2px;
+}
+.notice h2,.dynamic h2 {
+	height: 35px;
+	line-height: 35px;
+	background-color: #c9a063;
+	color: white;
+	font-size: 13px;
+	margin-top: 20px;
+}
+.notice h2 span {
+	font-size: 15px;
+	font-family: "微软雅黑";
+	margin-left: 20px;
+}
+.notice ul li,.dynamic ul li {
+	height: 30px;
+	line-height: 30px;
+	width: 90%;
+	font-size: 12px;
+	margin: 0 auto;
+	border-bottom: #ababab dashed 1px;
 }
