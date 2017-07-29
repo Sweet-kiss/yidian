@@ -323,7 +323,7 @@
 	width: 100%;
 }
 .info_list {
-   border: #d2d2d2 solid 2px;
+   border: #d2d2d2 solid 1px;
 }
 .info_list ul li {
 	position: relative;
@@ -362,7 +362,11 @@
 	width: 232px;
 	overflow: hidden;
 	margin-right: 20px;
-	border:#d2d2d2 solid 2px;;
+	border:#d2d2d2 solid 1px;;
+}
+.down_load_add {
+	margin-top: -20px;
+	z-index: 1000;
 }
 .icon_left ul li {
 	float: left;
@@ -456,3 +460,50 @@
  	background-color: #f7d1a0 !important;
  	border:#d0cfce solid 1px;
  }
+
+/*下载中心*/
+.downlad_Left {
+	width: 232px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.downlad_list li:first-child {
+	height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: #c9a16c;
+}
+.downlad_list li span {
+   font-size: 12px;
+    margin-left: 20px;
+}
+.downlad_list {
+	border: #d2d2d2 solid 1px;
+}
+.downlad_list li {
+	position: relative;
+    height: 60px;
+    line-height: 60px;
+}
+.downlad_list li i {
+	position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 10px;
+    background: url(../images/arr_icon.png);
+    background-size: 100% 100%;
+}
+.icon_li {
+	width: 230px;
+	overflow: hidden;
+	margin-top: 30px;
+	border: #d2d2d2 solid 1px;
+}
+.icon_li li {
+	float: left;
+    text-align: center;
+    padding: 10px 0px;
+    width: 50%;
+}
