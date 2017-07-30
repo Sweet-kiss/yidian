@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>home</title>
+	<title>index</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script type="text/javascript" src="js/jquery.js"></script>
@@ -48,17 +48,73 @@
 	</div>
 	<div class="navbar_buttom">
 		<div class="nav_dh comwith_t">
-			<ul>
+			<ul class="menu_y">
 				<li class="onclass"><a href="#">首页</a></li>
-				<li><a href="#">信息披露</a></li>
-				<li><a href="#">专项基金</a></li>
-				<li><a href="#">碳基金</a></li>
+				<li>
+				   <a class="menu" href="#">信息披露</a>
+				    <ul class="drop_down" style="display: none;">
+				    	<li><a href="./information.html">信息披露</a></li>
+				    	<li><a href="#">平台公告</a></li>
+				    	<li><a href="#">申购中签公告</a></li>
+				    	<li><a href="#">入库公告</a></li>
+				    </ul>
+				</li>
+				<li>
+				   <a class="menu" href="#">专项基金</a>
+				   <ul class="drop_down" style="display: none;">
+				    	<li><a href="./Special_fund.html">专项基金</a></li>
+				    	<li><a href="#">专项基金概况</a></li>
+				    	<li><a href="#">专项基金动态</a></li>
+				    	<li><a href="#">合作实践</a></li>
+				    	<li><a href="#">碳汇实践</a></li>
+				    </ul>
+				</li>
+				<li>
+				   <a href="#">碳基金</a>
+				    <ul class="drop_down" style="display: none;">
+				    	<li><a href="./fund.html">碳基金概况</a></li>
+				    	<li><a href="#">碳基金动态</a></li>
+				    	<li><a href="#">合作交流</a></li>
+				    	<li><a href="#">案例展示</a></li>
+				    </ul>
+				</li>
 				<li><a href="#">金融服务</a></li>
 				<li><a href="#">一点碳汇商城</a></li>
-				<li><a href="#">农林汇</a></li>
-				<li><a href="#">入市指南</a></li>
-				<li><a href="#">下载中心</a></li>
-				<li><a href="#">关于我们</a></li>
+				<li>
+				    <a href="#">农林汇</a>
+				      <ul class="drop_down" style="display: none;">
+				    	<li><a href="./agroforestry.html">品牌解读</a></li>
+				    	<li><a href="#">形象展示</a></li>
+				    	<li><a href="#">门店查询</a></li>
+				    	<li><a href="#">加盟合作</a></li>
+				    </ul>
+				</li>
+				<li>
+				   <a href="#">入市指南</a>
+				      <ul class="drop_down" style="display: none;">
+				    	<li><a href="./market.html">交易规则</a></li>
+				    	<li><a href="#">开户流程</a></li>
+				    	<li><a href="#">交易流程</a></li>
+				    	<li><a href="#">百问百答</a></li>
+				    </ul>				   
+				</li>
+				<li>
+				<a href="#">下载中心</a>
+				   <ul class="drop_down" style="display: none;">
+				    	<li><a href="./download.html">软件下载</a></li>
+				    	<li><a href="#">资料下载</a></li>
+				   </ul>
+				</li>
+				<li>
+				  <a href="#">关于我们</a>
+				  <ul class="drop_down" style="display: none;">
+				    	<li><a href="./about_us.html">平台简介</a></li>
+				    	<li><a href="#">最新动态</a></li>
+				    	<li><a href="#">营销活动</a></li>
+				    	<li><a href="#">会员动态</a></li>
+				    	<li><a href="#">行业动态</a></li>
+				   </ul>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -136,7 +192,7 @@
 			<h3><a href="#">会员登录</a></h3>
 		</li>
 		<li>
-			<div><img src="./images/download.png" alt=""></div>
+			<div><img src="./images/download_main.png" alt=""></div>
 			<h3><a href="#">下载中心</a></h3>
 		</li>
 		<li>
@@ -279,5 +335,7 @@ $(".fullSlide").slide({
         }
     }
 });
+
 </script>
+<script type="text/javascript" src="js/dropdown.js"></script>
 </html>

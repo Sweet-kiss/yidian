@@ -11,6 +11,9 @@
 	font-size: 10px;
 	color: #7d7d7d;
 }
+.navbar_nn_left p,.navbar_nn_right p span {
+	font-family: "微软雅黑";
+}
 .navbar_nn_right {
 	text-align: right;
 }
@@ -32,7 +35,6 @@
 /*logo部分*/
 .navbar_center {
 	overflow: hidden;
-	/*background-color: yellow;*/
 	height: 95px;
 }
 .navbar_center_left {
@@ -86,13 +88,38 @@
 .navbar_buttom {
 	width: 100%;
 	background-color: #f0f0f0;
-	overflow: hidden;
 	height: 50px;
 }
+.bt_add {
+	margin-top: -10px;
+}
 .nav_dh ul li{
+	position: relative;
 	float: left;
 	line-height: 50px;
 	margin-right: 0px;
+}
+.nav_dh ul li ul {
+	position: absolute;
+	top:50px;
+	left:0px;
+	z-index: 1000;
+	background-color: #f0f0f0;
+}
+.nav_dh ul li ul li {
+	
+}
+.nav_dh ul li ul li a {
+    display: block;
+	width: 90px;
+    height: 50px;
+    line-height: 50px;
+	font-size: 13px;
+    
+}
+.nav_dh ul li ul li a:hover {
+	background-color: #c9a16c;
+	color: white !important;
 }
 .nav_dh ul li a {
  display: block;
@@ -105,9 +132,11 @@
 .nav_dh ul li a:hover {
 	color: #b28850 !important;
 	font-family: "微软雅黑";
+	text-decoration: none !important;
 }
 .onclass a {
   color: #c9a16c !important;
+
 }
 
 /*新闻中心*/
@@ -462,6 +491,9 @@
  }
 
 /*下载中心*/
+.download_listwrapper {
+	margin-top: 20px;
+}
 .downlad_Left {
 	width: 232px;
 	margin-top: 10px;
@@ -506,4 +538,143 @@
     text-align: center;
     padding: 10px 0px;
     width: 50%;
+}
+.icon_li li h3 a {
+	display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000;
+}
+.downlad_right {
+	overflow: hidden;
+	width: 844px;
+	/*background-color: yellow;*/
+	margin-top: 10px;
+}
+.download_img,.download_img img {
+	width: 100%;
+}
+.title_add {
+	margin-top: 20px;
+}
+/*下载列表*/
+.listw_left,.listw_right{
+   width: 50%;
+   overflow: hidden;
+}
+.listw_left {
+	/*background-color: yellow;*/
+}
+.listw_right {
+	/*background-color: blue;*/
+}
+.type_li {
+	width: 30%;
+	overflow: hidden;
+	/*background-color: #f6af93;*/
+}
+.name_li {
+	width: 70%;
+	overflow: hidden;
+	/*background-color: #aff563; */
+}
+._title11 {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	border-top: #b6b6b6 solid 1px;
+}
+.type01 {
+	height: 201px;
+	line-height: 201px;
+	font-size: 13px;
+	text-align: center;
+	border: #b6b6b6 solid 1px;
+	/*background-color: #63f5b5;*/
+}
+.type02 {
+	height: 149px;
+	line-height: 149px;
+	font-size: 13px;
+	text-align: center;
+	border-right: #b6b6b6 solid 1px;
+	border-left: #b6b6b6 solid 1px;
+	border-bottom: #b6b6b6 solid 1px;
+	/*background-color: #63aff5;*/
+}
+.name_li li {
+   height: 50px;
+	line-height: 50px;
+	font-size: 13px;
+	text-align: center;
+	border-top: #b6b6b6 solid 1px;
+	border-right: #b6b6b6 solid 1px;
+	/*border-bottom: #b6b6b6 solid 1px;*/
+	/*background-color: #f6e95b;*/
+}
+.name_li li:last-child,.download_li li:last-child,.explain_li li:last-child {
+	border-bottom: #b6b6b6 solid 1px;
+}
+.download_li {
+	width: 30%;
+   border-left: none; 
+}
+.download_li li {
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border-top: #b6b6b6 solid 1px;
+	/*background-color: #f65be6;*/
+}
+.download_li li:first-child {
+	border-top: #b6b6b6 solid 1px;
+}
+.explain_li {
+	width: 70%;
+    border-left: none; 	
+}
+.explain_li li {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-top: #b6b6b6 solid 1px;
+	border-left: #b6b6b6 solid 1px;
+	border-right: #b6b6b6 solid 1px;
+	/*background-color: #f04172;*/
+}
+.downlad_w {
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.xian_add {
+	border-left: #b6b6b6 solid 1px;
+	border-right: #b6b6b6 solid 1px;
+}
+.info_news_ll li a,.page_wrap ul li a {
+	color: #000;
+	font-size: 13px;
+}
+
+.news_main h3,.news_main h4 {
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+.news_main p {
+	font-size: 14px;
+	text-indent: 30px;
+	line-height: 30px;
+}
+.tu_s {
+	text-align: center;
+	padding:10px 0px;
+}
+.in_development h4 {
+	text-align: center;
+	height: 90px;
+	line-height: 90px;
+	font-size: 15px;
 }
